@@ -1,9 +1,9 @@
 === Timed Content ===
 Contributors: dartiss
-Donate link: https://artiss.blog/donate
 Tags: content, date, expire, start, timed
 Requires at least: 4.6
-Tested up to: 4.7.4
+Tested up to: 4.9
+Requires PHP: 5.3
 Stable tag: 1.2.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -12,7 +12,19 @@ Force post or page content to appear or expire.
 
 == Description ==
 
-Adds a shortcode and function allowing you to force the contents of a post or page to appear or expire after a specific date, day and/or time. There are no premium features and no adverts - this is 100% complete and free! 
+Adds a shortcode and function allowing you to force the contents of a post or page to appear or expire after a specific date, day and/or time.
+
+Technical specifications include...
+
+* Licensed under [GPLv2 (or later)](http://wordpress.org/about/gpl/ "GNU General Public License")
+* Designed for both single and multi-site installations
+* PHP7 compatible
+* Fully internationalized, ready for translations. **If you would like to add a translation to this plugin then please head to the [Translating WordPress](https://translate.wordpress.org/projects/wp-plugins/simple-timed-plugin "Translating WordPress") page**
+* WCAG 2.0 Compliant at AA level
+
+Please visit the [Github page](https://github.com/dartiss/timed-content "Github") for the latest code development, planned enhancements and known issues.
+
+== How to Use ==
 
 After installation use the shortcode `[timed]` around any post or page contents that you wish to appear or expire on a specific date and/or time.
 
@@ -70,18 +82,6 @@ Some content goes here
 
 This will only display the content if it's any date during the year 2012.
 
-== Technical specification ==
-
-* Licensed under [GPLv2 (or later)](http://wordpress.org/about/gpl/ "GNU General Public License")
-* Designed for both single and multi-site installations
-* PHP7 compatible
-* Fully internationalized, ready for translations **If you would like to add a translation to his plugin then please head to our [Translating WordPress](https://translate.wordpress.org/projects/wp-plugins/simple-timed-plugin "Translating WordPress") page**
-* WCAG 2.0 Compliant at AA level
-
-== Licence ==
-
-This WordPress plugin is licensed under the [GPLv2 (or later)](http://wordpress.org/about/gpl/ "GNU General Public License").
-
 == Acknowledgements ==
 
 Thanks to Jeff Kereakoglow for the `onday` and `offday` suggestions, as well as pointing out the bug with the time.
@@ -102,7 +102,7 @@ Voila! It's ready to go.
 = 1.2.5 =
 * Maintenance: Corrected links to my site
 * Maintenance: Changes to README file to reflect the new plugin directory format
-* Enhancement: Minimum WordPress level is now 4.6. This means that I can remove a lot of the internationalisation options, which are now automated
+* Enhancement: Minimum WordPress level is now 4.6. This means that I can remove a lot of the internationalization options, which are now automated
 * Enhancement: Now using Yoda conditions throughout the code
 
 = 1.2.4 =
